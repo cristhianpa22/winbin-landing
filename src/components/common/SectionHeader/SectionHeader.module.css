@@ -1,0 +1,20 @@
+.header {
+  display: grid;
+  gap: var(--space-3);
+  max-width: 46rem;
+  margin-bottom: clamp(2rem, 1rem + 4vw, 3.5rem);
+}
+.center { margin-inline: auto; text-align: center; }
+.left { text-align: left; }
+
+.eyebrow {
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+.title { font-size: var(--fs-h2); }
+.description { font-size: var(--fs-lg); color: var(--color-muted); }
+
+.inverted .eyebrow { color: var(--color-lime); }
+.inverted .title { color: #fff; }
+.inverted .description { color: rgba(255, 255, 255, 0.78); }
